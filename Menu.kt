@@ -86,7 +86,7 @@ class Menu : AppCompatActivity() {
 
                 val emailIntent = Intent(Intent.ACTION_SENDTO).apply {
                     data = Uri.parse("mailto:")
-                    putExtra(Intent.EXTRA_EMAIL, arrayOf("sudhikshatsv01@gmail.com"))
+                    putExtra(Intent.EXTRA_EMAIL, arrayOf("abc@gmail.com"))
                     putExtra(Intent.EXTRA_SUBJECT, "Subject Here")
                 }
                 if (emailIntent.resolveActivity(packageManager) != null) {
@@ -98,7 +98,7 @@ class Menu : AppCompatActivity() {
             }
             R.id.i2 -> {
                 val intent = Intent(Intent.ACTION_DIAL).apply {
-                    data = Uri.parse("tel:6301428842")
+                    data = Uri.parse("tel:123456789")
                 }
                 if (intent.resolveActivity(packageManager) != null) {
                     startActivity(intent)
