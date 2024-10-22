@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_14"
+    tools:context=".Menu">
+
+
+  <androidx.appcompat.widget.Toolbar
+      android:id="@+id/toolbar"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="44dp"
+      android:background="@color/white"
+
+      android:minHeight="?attr/actionBarSize"
+      android:theme="?attr/actionBarTheme"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <TextView
+      android:id="@+id/textView3"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:fontFamily="@font/agbalumo"
+      android:text="SUDHIKSHA"
+      android:textColorLink="#000000"
+      android:textColor="@color/black"
+      android:textSize="36sp"
+      app:layout_constraintBottom_toBottomOf="@+id/toolbar"
+      app:layout_constraintEnd_toEndOf="@+id/toolbar"
+      app:layout_constraintStart_toStartOf="@+id/toolbar"
+      app:layout_constraintTop_toTopOf="@+id/toolbar" />
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:gravity="center"
+      android:orientation="vertical"
+      android:padding="16dp"
+      tools:layout_editor_absoluteX="0dp"
+      tools:layout_editor_absoluteY="44dp">
+
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="392dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="92dp"
+        android:alignmentMode="alignMargins"
+        android:columnCount="2"
+        android:padding="8dp"
+        android:rowCount="2"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        tools:layout_editor_absoluteX="77dp">
+
+      <ImageButton
+          android:id="@+id/imgbutton1"
+          android:layout_width="104dp"
+          android:layout_height="102dp"
+          android:layout_margin="8dp"
+          android:adjustViewBounds="true"
+          android:scaleType="centerCrop"
+          android:src="@drawable/img"
+
+          />
+
+      <ImageButton
+          android:id="@+id/imgbutton2"
+          android:layout_width="104dp"
+          android:layout_height="102dp"
+          android:layout_margin="8dp"
+          android:adjustViewBounds="true"
+          android:scaleType="centerCrop"
+          android:src="@drawable/img_1" />
+
+      <ImageButton
+          android:id="@+id/imgbutton3"
+          android:layout_width="104dp"
+          android:layout_height="102dp"
+          android:layout_margin="8dp"
+          android:adjustViewBounds="true"
+          android:scaleType="centerCrop"
+          android:src="@drawable/img_2" />
+
+      <ImageButton
+          android:id="@+id/imgbutton4"
+          android:layout_width="104dp"
+          android:layout_height="102dp"
+          android:layout_margin="8dp"
+          android:adjustViewBounds="true"
+          android:scaleType="centerCrop"
+          android:src="@drawable/img_3" />
+
+
+    </GridLayout>
+
+
+
+  </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
