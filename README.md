@@ -1,4 +1,4 @@
-Portfolio App
+# Portfolio App
 
 A simple and elegant Android application built using Kotlin in Android Studio. This portfolio app showcases my certifications, skills, projects, and education details in an organized and user-friendly interface.
 
