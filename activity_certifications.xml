@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/img_37">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="359dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:fontFamily="@font/atomic_age"
+        android:gravity="center"
+        android:paddingBottom="16dp"
+        android:text="Certifications"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/gfg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:fontFamily="@font/akaya_kanadaka"
+
+        android:text="1. Complete Data Science and Machine Learning by GeeksforGeeks"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <ImageButton
+        android:id="@+id/imgbutton1"
+        android:layout_width="137dp"
+        android:layout_height="102dp"
+        android:layout_margin="8dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img_10" />
+
+    <TextView
+        android:id="@+id/bitsandbytes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:fontFamily="@font/akaya_kanadaka"
+
+        android:text="2. The Bits and Bytes of Computer Networking"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <ImageButton
+        android:id="@+id/imgbutton2"
+        android:layout_width="137dp"
+        android:layout_height="102dp"
+        android:layout_margin="8dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img_11" />
+
+
+    <TextView
+        android:id="@+id/tableau"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:fontFamily="@font/akaya_kanadaka"
+        android:paddingBottom="0dp"
+        android:text="3. Fundamentals of Tableau"
+        android:textColor="#FFFDFD"
+
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <ImageButton
+        android:id="@+id/imgbutton3"
+        android:layout_width="137dp"
+        android:layout_height="102dp"
+        android:layout_margin="8dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img_12" />
+
+
+
+
+</LinearLayout>
